@@ -22,3 +22,5 @@ const localStorage = (key, initialValue) => {
 
   return [value, setValue]
 }
+
+export default localStorage
