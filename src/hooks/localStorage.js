@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const PREFIX = 'codeEditor'
 
-const localStorage = (key, initialValue) => {
+const LocalStorage = (key, initialValue) => {
   const prefixedKey = PREFIX + key
 
   const [value, setValue] = useState(() => {
@@ -23,4 +23,4 @@ const localStorage = (key, initialValue) => {
   return [value, setValue]
 }
 
-export default localStorage
+export default LocalStorage
